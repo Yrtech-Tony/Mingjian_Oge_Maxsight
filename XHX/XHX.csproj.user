@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>C:\Workspace\Mingjian_Oge_Maxsight\发布文件\|C:\Workspace\Mingjian_ChangAn_Maxsight\发布文件\|C:\Workspace\Mingjian_Honda_Maxsight\发布文件\|C:\New Folder\Mingjian_Honda_Maxsight\发布文件\|D:\D盘\workspace\项目整理\进行中的项目\Source\PC程序\广州本田\发布文件\</PublishUrlHistory>
+    <InstallUrlHistory>http://123.57.229.128/OgeClient/|http://123.57.229.128/ChangAnClient/|http://123.57.229.128/HondaClient/|http://123.57.229.128/GacfcaClient/|http://123.57.229.128/GuangQiFeiKeClient/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
