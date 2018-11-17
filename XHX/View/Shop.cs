@@ -299,14 +299,14 @@ namespace XHX.View
             for (int i = 2; i < 1000; i++)
             {
                 string shopCode = msExcelUtil.GetCellValue(worksheet_FengMian, "A", i).Trim();
-                string shopCode1 = msExcelUtil.GetCellValue(worksheet_FengMian, "B", i).Trim();
+                //string shopCode1 = msExcelUtil.GetCellValue(worksheet_FengMian, "B", i).Trim();
                 if (!string.IsNullOrEmpty(shopCode))
                 {
-                    string shopName = msExcelUtil.GetCellValue(worksheet_FengMian, "G", i).Trim();
-                    string province = msExcelUtil.GetCellValue(worksheet_FengMian, "E", i);
-                    string city = msExcelUtil.GetCellValue(worksheet_FengMian, "F", i);
-                    string areaCode_sale = msExcelUtil.GetCellValue(worksheet_FengMian, "C", i);
-                    string areaCode_after = msExcelUtil.GetCellValue(worksheet_FengMian, "D", i);
+                    string shopName = msExcelUtil.GetCellValue(worksheet_FengMian, "B", i).Trim();
+                    string province = msExcelUtil.GetCellValue(worksheet_FengMian, "C", i);
+                    string city = msExcelUtil.GetCellValue(worksheet_FengMian, "D", i);
+                    string areaCode_sale = msExcelUtil.GetCellValue(worksheet_FengMian, "E", i);
+                    string areaCode_after = msExcelUtil.GetCellValue(worksheet_FengMian, "F", i);
                     webService.SaveShop(areaCode_sale, areaCode_after, shopCode, shopName, true, this.UserInfoDto.UserID, province, city);
                 }
                 //else
